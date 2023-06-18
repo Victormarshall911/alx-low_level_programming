@@ -1,11 +1,1 @@
-#include <stdio.h>
-/**
- * main - Entry point
- *
- Return 0(Success)
- */
-int main(void)
-{
-gcc -S -masm=intel example.c -o example.s
-return (0);
-y}
+
