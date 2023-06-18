@@ -3,7 +3,7 @@
  * main - A file that print the size of various computer types
  * Return 0(Success)
  */
-int main(void)
+int main()
 {
 char a;
 int b;
