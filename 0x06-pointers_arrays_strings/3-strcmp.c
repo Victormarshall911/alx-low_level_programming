@@ -9,19 +9,13 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
+	int _strcmp(char *s1, char *s2) {
+			while (*s1 && (*s1 == *s2)) {
+				s1++;
+				s2++;
+}
 
-	j = 0;
-	while (j < n && src[j] != '\0')
-	{
-		dest[j] = src[j];
-		j++;
-	}
-	while (j < n)
-	{
-		dest[j] = '\0';
-		j++;
-	}
+		return *(unsigned char *)s1 - *(unsigned char *)s2;
+}
 
-	return (dest);
 }
